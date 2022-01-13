@@ -13,10 +13,10 @@
     "lint": "tslint -p tsconfig.json",
     "clean": "rm -rf ./lib",
     "build": "tsc",
-    "prepare": "npm run build",
-    "prepublishOnly": "npm test && npm run lint",
-    "preversion": "npm run lint",
-    "version": "npm run format && git add -A src",
+    "prepare": "yarn build",
+    "prepublishOnly": "yarn test && yarn lint",
+    "preversion": "yarn lint",
+    "version": "yarn format && yarn -A src",
     "postversion": "git push && git push --tags"
   },
   "keywords": [
