@@ -32,7 +32,6 @@
   "homepage": "https://github.com/ryanbekhen/typescript-library-quick-start#readme",
   "devDependencies": {
     "@types/jest": "^27.0.3",
-    "@types/serialport": "^8.0.2",
     "jest": "^27.4.5",
     "prettier": "^2.5.1",
     "ts-jest": "^27.1.2",
