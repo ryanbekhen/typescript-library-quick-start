@@ -16,7 +16,7 @@
     "prepare": "yarn build",
     "prepublishOnly": "yarn test && yarn lint",
     "preversion": "yarn lint",
-    "version": "yarn format && yarn -A src",
+    "version": "yarn format && git -A src",
     "postversion": "git push && git push --tags"
   },
   "keywords": [
